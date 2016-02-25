@@ -41,42 +41,193 @@ public class tictactoe_main {
 		if(arr[0] + arr[1] + arr[2] ==3 || arr[3] + arr[4] + arr[5] ==3 || arr[6] + arr[7] + arr[8] ==3){
 			flag=1;
 			JOptionPane.showMessageDialog(null, "Player " + player + " wins!!");
-			frame.setVisible(false);
+			int a = JOptionPane.showConfirmDialog(null, "Play again?");
+			if(a==JOptionPane.NO_OPTION){
+				frame.setVisible(false);
+				System.exit(0);
+			}
+			else if(a==JOptionPane.YES_OPTION){
+				reset();
+			}
+			else{
+				btnNewButton.setEnabled(false);
+				btnNewButton_1.setEnabled(false);
+				button.setEnabled(false);
+				button_1.setEnabled(false);
+				button_2.setEnabled(false);
+				button_3.setEnabled(false);
+				button_4.setEnabled(false);
+				button_5.setEnabled(false);
+				button_6.setEnabled(false);
+			}
 		}
 		else if(arr[0] + arr[3] + arr[6] ==3 || arr[1] + arr[4] + arr[7] ==3 || arr[2] + arr[5] + arr[8] ==3){
 			flag=1;
 			JOptionPane.showMessageDialog(null, "Player " + player + " wins!!");
-			frame.setVisible(false);
+			int a = JOptionPane.showConfirmDialog(null, "Play again?");
+			if(a==JOptionPane.NO_OPTION){
+				frame.setVisible(false);
+				System.exit(0);
+			}
+			else if(a==JOptionPane.YES_OPTION){
+				reset();
+			}
+			else{
+				btnNewButton.setEnabled(false);
+				btnNewButton_1.setEnabled(false);
+				button.setEnabled(false);
+				button_1.setEnabled(false);
+				button_2.setEnabled(false);
+				button_3.setEnabled(false);
+				button_4.setEnabled(false);
+				button_5.setEnabled(false);
+				button_6.setEnabled(false);
+			}
 		}
 		else if(arr[0] + arr[4] + arr[8] ==3 || arr[2] + arr[4] + arr[6] ==3 ){
 			flag=1;
 			JOptionPane.showMessageDialog(null, "Player " + player + " wins!!");
-			frame.setVisible(false);
+			int a = JOptionPane.showConfirmDialog(null, "Play again?");
+			if(a==JOptionPane.NO_OPTION){
+				frame.setVisible(false);
+				System.exit(0);
+			}
+			else if(a==JOptionPane.YES_OPTION){
+				reset();
+			}
+			else{
+				btnNewButton.setEnabled(false);
+				btnNewButton_1.setEnabled(false);
+				button.setEnabled(false);
+				button_1.setEnabled(false);
+				button_2.setEnabled(false);
+				button_3.setEnabled(false);
+				button_4.setEnabled(false);
+				button_5.setEnabled(false);
+				button_6.setEnabled(false);
+			}
 		}
 		
 		if(arr[0] + arr[1] + arr[2] ==-3 || arr[3] + arr[4] + arr[5] ==-3 || arr[6] + arr[7] + arr[8] ==-3){
 			flag=1;
 			JOptionPane.showMessageDialog(null, "Player " + player + " wins!!");
-			frame.setVisible(false);
+			int a = JOptionPane.showConfirmDialog(null, "Play again?");
+			if(a==JOptionPane.NO_OPTION){
+				frame.setVisible(false);
+				System.exit(0);
+			}
+			else if(a==JOptionPane.YES_OPTION){
+				reset();
+			}
+			else{
+				btnNewButton.setEnabled(false);
+				btnNewButton_1.setEnabled(false);
+				button.setEnabled(false);
+				button_1.setEnabled(false);
+				button_2.setEnabled(false);
+				button_3.setEnabled(false);
+				button_4.setEnabled(false);
+				button_5.setEnabled(false);
+				button_6.setEnabled(false);
+			}
 		}
 		else if(arr[0] + arr[3] + arr[6] ==-3 || arr[1] + arr[4] + arr[7] ==-3 || arr[2] + arr[5] + arr[8] ==-3){
 			flag=1;
 			JOptionPane.showMessageDialog(null, "Player " + player + " wins!!");
-			frame.setVisible(false);
+			int a = JOptionPane.showConfirmDialog(null, "Play again?");
+			if(a==JOptionPane.NO_OPTION){
+				frame.setVisible(false);
+				System.exit(0);
+			}
+			else if(a==JOptionPane.YES_OPTION){
+				reset();
+			}
+			else{
+				btnNewButton.setEnabled(false);
+				btnNewButton_1.setEnabled(false);
+				button.setEnabled(false);
+				button_1.setEnabled(false);
+				button_2.setEnabled(false);
+				button_3.setEnabled(false);
+				button_4.setEnabled(false);
+				button_5.setEnabled(false);
+				button_6.setEnabled(false);
+			}
 		}
 		else if(arr[0] + arr[4] + arr[8] ==-3 || arr[2] + arr[4] + arr[6] ==-3 ){
 			flag=1;
 			JOptionPane.showMessageDialog(null, "Player " + player + " wins!!");
-			frame.setVisible(false);
+			int a = JOptionPane.showConfirmDialog(null, "Play again?");
+			if(a==JOptionPane.NO_OPTION){
+				frame.setVisible(false);
+				System.exit(0);
+			}
+			else if(a==JOptionPane.YES_OPTION){
+				reset();
+			}
+			else{
+				btnNewButton.setEnabled(false);
+				btnNewButton_1.setEnabled(false);
+				button.setEnabled(false);
+				button_1.setEnabled(false);
+				button_2.setEnabled(false);
+				button_3.setEnabled(false);
+				button_4.setEnabled(false);
+				button_5.setEnabled(false);
+				button_6.setEnabled(false);
+			}
 		}
 		
 
 		if(chance == 9 && flag == 0){
 			JOptionPane.showMessageDialog(null, "Match tied !!");
-			frame.setVisible(false);
+			int a = JOptionPane.showConfirmDialog(null, "Play again?");
+			if(a==JOptionPane.NO_OPTION){
+				frame.setVisible(false);
+				System.exit(0);
+			}
+			else if(a==JOptionPane.YES_OPTION){
+				reset();
+			}
+			else{
+				btnNewButton.setEnabled(false);
+				btnNewButton_1.setEnabled(false);
+				button.setEnabled(false);
+				button_1.setEnabled(false);
+				button_2.setEnabled(false);
+				button_3.setEnabled(false);
+				button_4.setEnabled(false);
+				button_5.setEnabled(false);
+				button_6.setEnabled(false);
+			}
 		}
 	}
 	
+	private void reset() {
+		for(int i=0;i<9;i++){
+			arr[i] = 0;
+		}
+		btnNewButton.setEnabled(true);
+		btnNewButton_1.setEnabled(true);
+		button.setEnabled(true);
+		button_1.setEnabled(true);
+		button_2.setEnabled(true);
+		button_3.setEnabled(true);
+		button_4.setEnabled(true);
+		button_5.setEnabled(true);
+		button_6.setEnabled(true);
+		btnNewButton.setText("");
+		btnNewButton_1.setText("");
+		button.setText("");
+		button_1.setText("");
+		button_2.setText("");
+		button_3.setText("");
+		button_4.setText("");
+		button_5.setText("");
+		button_6.setText("");
+		chance=0;
+	}
+
 	/**
 	 * Create the application.
 	 */
@@ -111,6 +262,7 @@ public class tictactoe_main {
 					btnNewButton.setText("O");
 					arr[0]= -1;
 				}
+				btnNewButton.setEnabled(false);
 				check();
 			}
 		});
@@ -129,6 +281,7 @@ public class tictactoe_main {
 					btnNewButton_1.setText("O");
 					arr[1]= -1;
 				}
+				btnNewButton_1.setEnabled(false);
 				check();
 			}
 		});
@@ -147,6 +300,7 @@ public class tictactoe_main {
 					button.setText("O");
 					arr[2]= -1;
 				}
+				button.setEnabled(false);
 				check();
 			}
 		});
@@ -165,6 +319,7 @@ public class tictactoe_main {
 					button_1.setText("O");
 					arr[3]= -1;
 				}
+				button_1.setEnabled(false);
 				check();
 			}
 		});
@@ -178,11 +333,12 @@ public class tictactoe_main {
 				if(chance%2==0){
 					button_2.setText("X");
 					arr[4]= 1;
-				}
+ 				}
 				else if(chance%2==1){
 					button_2.setText("O");
 					arr[4]= -1;
 				}
+				button_2.setEnabled(false);
 				check();
 			}
 		});
@@ -201,6 +357,7 @@ public class tictactoe_main {
 					button_3.setText("O");
 					arr[5]= -1;
 				}
+				button_3.setEnabled(false);
 				check();
 			}
 		});
@@ -219,6 +376,7 @@ public class tictactoe_main {
 					button_4.setText("O");
 					arr[6]= -1;
 				}
+				button_4.setEnabled(false);
 				check();
 			}
 		});
@@ -237,6 +395,7 @@ public class tictactoe_main {
 					button_5.setText("O");
 					arr[7]= -1;
 				}
+				button_5.setEnabled(false);
 				check();
 			}
 		});
@@ -255,6 +414,7 @@ public class tictactoe_main {
 					button_6.setText("O");
 					arr[8]= -1;
 				}
+				button_6.setEnabled(false);
 				check();
 			}
 		});
@@ -271,7 +431,16 @@ public class tictactoe_main {
 				frame.setVisible(false);
 			}
 		});
-		btnExit.setBounds(156, 243, 117, 25);
+		btnExit.setBounds(252, 243, 117, 25);
 		frame.getContentPane().add(btnExit);
+		
+		JButton button_7 = new JButton("Reset");
+		button_7.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				reset();
+			}
+		});
+		button_7.setBounds(50, 243, 117, 25);
+		frame.getContentPane().add(button_7);
 	}
 }
